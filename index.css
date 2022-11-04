@@ -1,0 +1,55 @@
+body {
+    background-image:url(img/paper5.jpg);
+    
+  }
+  h1,p{
+    text-align: center;
+  }
+  
+  label{
+    display: block;
+    padding-top: 10px;
+  }
+  .info{
+    display: block;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 9px;
+    margin: 10px 0 0 0;
+    border: none;
+  }
+  .align{
+    text-align: left;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 300px;
+    border-radius: 9px;
+    background-color: #494D5F;
+  }
+  input[type="checkbox"]
+  {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+  }
+  fieldset{
+    border: none;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 9px;
+    padding: 20px;
+  }
+  form{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .paragraph
+  {
+    font-style: italic;
+  }
